@@ -17,6 +17,6 @@ public interface TaskServices
     //to update Tasks by fetching using Id
     TasksDto updateTask(TasksDto tasksDto,String taskId);
     // to delete tasks
-   void deleteTasks(String  taskId);
+    void deleteTasks(String  taskId);
 
 }
